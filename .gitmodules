@@ -1,0 +1,9 @@
+[submodule "cmake"]
+	path = cmake
+	url = https://github.com/dnasdw/libsundaowen_cmake.git
+[submodule "dep/libsundaowen"]
+	path = dep/libsundaowen
+	url = https://github.com/dnasdw/libsundaowen_src.git
+[submodule "dep/freetype"]
+	path = dep/freetype
+	url = https://github.com/dnasdw/libsundaowen_freetype.git
