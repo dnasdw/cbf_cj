@@ -7,3 +7,6 @@
 [submodule "dep/freetype"]
 	path = dep/freetype
 	url = https://github.com/dnasdw/libsundaowen_freetype.git
+[submodule "dep/stb"]
+	path = dep/stb
+	url = https://github.com/dnasdw/libsundaowen_stb.git
