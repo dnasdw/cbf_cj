@@ -65,7 +65,7 @@ int UMain(int argc, UChar* argv[])
 			Char16_t uUnicode = sTxt[j];
 			if (uUnicode >= 0x20)
 			{
-				mCharsetOld.insert(make_pair(uUnicode, mCharsetOld.size()));
+				mCharsetOld.insert(make_pair(uUnicode, static_cast<u32>(mCharsetOld.size())));
 			}
 		}
 		fp = UFopen(argv[i * 2 + 4], USTR("rb"), false);
